@@ -21,4 +21,5 @@
 > _=/bin/printenv
 > OLDPWD=/home/seed/COMP352
 */
-I see the differences in the path of each variable that I exported. It matches what was exported from each directory. By temporarily changing PATH and LD_LIBRARY_PATH variables, you can change their path to a malicious program, cauing it to run in the background.
+I see the differences in the path of each variable that I exported. It matches what was exported from each directory. 
+By temporarily changing PATH and LD_LIBRARY_PATH variables, you can change their path to a malicious program, causing it to run in the background.
