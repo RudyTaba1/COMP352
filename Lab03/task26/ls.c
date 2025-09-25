@@ -10,7 +10,7 @@ int main(){
 }
 
 int ls(){
-	
+//added for clarity	
 	system("export PATH=./:$PATH");	
 
 	printf("Give me your IP!!!!!\n");
