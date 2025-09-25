@@ -1,0 +1,7 @@
+/*37c37
+< _=/bin/printenv
+---
+> _=./child
+*/
+
+The difference between runninng printenv and the child c code is the path from which the program is being called. If we call the normal "printenv" command, it's pulling that program from /bin/, but if we call it from the child c code, it'll call it from teh c code. This illudes to the path exploit we're about to see.

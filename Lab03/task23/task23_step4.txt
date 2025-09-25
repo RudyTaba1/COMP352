@@ -1,0 +1,7 @@
+/*37c37
+< _=./task23_step1
+---
+> _=/bin/printenv
+*/ 
+
+Same conclusion/observation as task 2.2 step step 3. An easy exploit for privlege escilation and other nefarious programs that can be run on users systems.

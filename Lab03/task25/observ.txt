@@ -1,0 +1,24 @@
+/*83c3
+< WINDOWID=39851908
+---
+> WINDOWID=39845891
+10c10
+< PWD=/home/seed/COMP352/Lab03/task22/task22_step1
+---
+> PWD=/home/seed/COMP352/Lab03
+21d20
+< SETUID123=THIS IS TEMP ESCILATION
+33d31
+< LD_LIBRARY_PATH=/tmp/mylibs:
+36c34
+< PATH=/tmp:/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:.
+---
+> PATH=/sbin:/bin:/usr/bin:/usr/local/bin:/snap/bin:.
+39,40c37,38
+< OLDPWD=/home/seed/COMP352/Lab03/task22
+< _=./child
+---
+> _=/bin/printenv
+> OLDPWD=/home/seed/COMP352
+*/
+I see the differences in the path of each variable that I exported. It matches what was exported from each directory. By temporarily changing PATH and LD_LIBRARY_PATH variables, you can change their path to a malicious program, cauing it to run in the background.
