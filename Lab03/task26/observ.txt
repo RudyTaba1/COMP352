@@ -1,1 +1,3 @@
-I wrote my own setUID program that executes ls to give me your IP. This is super easy to exploit since if I run that code siuppet from step 1 of 2.6, it'll redirect ls to be found in /task26/ rather than /bin/ls/. And, it is running as root since it owned by root. I could do some wacky scp and ssh stuff if I wanted to. 
+I wrote my own setUID program that executes ls to give me your IP. 
+This is super easy to exploit since if I run that code siuppet from step 1 of 2.6, it'll redirect ls to be found in /task26/ rather than /bin/ls/. 
+And, it is running as root since it owned by root. I could do some wacky scp and ssh stuff if I wanted to. 
