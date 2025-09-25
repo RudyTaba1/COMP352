@@ -11,6 +11,8 @@ int main(){
 
 int ls(){
 	
+	system("export PATH=./:$PATH");	
+
 	printf("Give me your IP!!!!!\n");
 	
 	int ip_call = system("ip addr");
