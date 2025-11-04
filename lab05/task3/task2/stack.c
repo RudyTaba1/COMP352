@@ -22,7 +22,8 @@ int main(int argc, char **argv){
      char str[517];
      FILE *badfile;
 
-     /*Change the size of this dummy array to the randomize parameters for this       lab. Need to use the array at least once.*/
+     /*Change the size of this dummy array to the randomize parameters for this
+      *lab. Need to use the array at least once.*/
      char dummy[BUF_SIZE]; memset(dummy, 0, BUF_SIZE);
 
      badfile = fopen("badfile", "r");
