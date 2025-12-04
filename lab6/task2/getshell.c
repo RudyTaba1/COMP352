@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+
+int main(){
+
+	char* shell = getenv("MYSHELL");
+
+	if(shell){
+	
+		printf("%x\n",(unsigned int) shell);
+	
+	}
+
+}
